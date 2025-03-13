@@ -18,14 +18,11 @@ Step 1: `pip install bibtexparser` (Python 3)
 1. **Install Dependencies**  
    ```sh
    pip install bibtexparser  # Requires Python 3
-2. **Run the Script
+2. **Run the Script**  
    ```sh
    python bib_cleaner.py main.tex ref.bib ref_clean.bib
-
-
-Step 2: Run `python bib_cleaner.py main.tex ref.bib ref_clean.bib` 
-
-Step 3: Use `ref_clean.bib`
+3. **Use the Cleaned Bibliography**  
+   Replace `ref.bib` with `ref_clean.bib` in your LaTeX project.
 
 
 
