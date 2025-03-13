@@ -5,7 +5,7 @@ Step 1: `pip install bibtexparser` (Python 3)
 
 Step 2: Run `python bib_cleaner.py main.tex ref.bib ref_clean.bib` 
 
-(`main.tex` is your `.tex` filename, `ref.bib` is your `.bib` filename, `ref_clean.bib` is the desired filename for the new `.bib` file.
+(The `main.tex` is your `.tex` filename, `ref.bib` is your `.bib` filename. The `ref_clean.bib` is the desired filename for the new `.bib` file.)
 
 Step 3: Use `ref_clean.bib`
 
