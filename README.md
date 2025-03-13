@@ -12,4 +12,4 @@ Step 3: Use `ref_clean.bib`
 
 
 _____________
-Lastly executed on python `3.10` and bibtexparser `4.3`.
+Lastly executed on Python `3.10` and bibtexparser `4.3`.
