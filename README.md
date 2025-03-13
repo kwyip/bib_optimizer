@@ -8,3 +8,8 @@ Step 2: Run `python bib_cleaner.py main.tex ref.bib ref_clean.bib`
 (`main.tex` is your `.tex` filename, `ref.bib` is your `.bib` filename, `ref_clean.bib` is the desired filename for the new `.bib` file.
 
 Step 3: Use `ref_clean.bib`
+
+
+
+_____________
+Lastly executed on python `3.10` and bibtexparser `4.3`.
