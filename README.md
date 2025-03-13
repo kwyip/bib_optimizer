@@ -18,6 +18,9 @@ Step 1: `pip install bibtexparser` (Python 3)
 1. **Install Dependencies**  
    ```sh
    pip install bibtexparser  # Requires Python 3
+2. **Run the Script
+   ```sh
+   python bib_cleaner.py main.tex ref.bib ref_clean.bib
 
 
 Step 2: Run `python bib_cleaner.py main.tex ref.bib ref_clean.bib` 
