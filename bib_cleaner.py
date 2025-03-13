@@ -24,11 +24,7 @@ def bib_cleaner(filename, input_bib, output_bib):
     for k in all_keys:
         allowed_keys.append(k)
 
-
-
     entry_dict = {entry.get('ID'): entry for entry in bib_database.entries}
-
-
     filtered_entries = [entry_dict[key] for key in allowed_keys if key in entry_dict]
 
     writer = BibTexWriter()
