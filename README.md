@@ -11,8 +11,6 @@ These input files will **remain unchanged**.
 - `ref_clean.bib` – The newly generated, cleaned bibliography file.
 
 ------------------------------------------------------------------------------
-Step 1: `pip install bibtexparser` (Python 3)
-
 ### Steps to Clean Your Bibliography
 
 1. **Install Dependencies**  
