@@ -13,6 +13,13 @@ These input files will **remain unchanged**.
 ------------------------------------------------------------------------------
 Step 1: `pip install bibtexparser` (Python 3)
 
+### Steps to Clean Your Bibliography
+
+1. **Install Dependencies**  
+   ```sh
+   pip install bibtexparser  # Requires Python 3
+
+
 Step 2: Run `python bib_cleaner.py main.tex ref.bib ref_clean.bib` 
 
 Step 3: Use `ref_clean.bib`
