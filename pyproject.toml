@@ -1,0 +1,18 @@
+[project]
+name = "bib_optimizer"
+version = "0.0.1"
+authors = [
+  { name="Ka Wa Yip", email="yipkawa@gmail.com" },
+]
+description = "bib_cleaner"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/bib_optimizer"
+Issues = "https://github.com/pypa/bib_optimizer/issues"
