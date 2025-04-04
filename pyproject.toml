@@ -14,5 +14,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/pypa/bib_optimizer"
-Issues = "https://github.com/pypa/bib_optimizer/issues"
+Homepage = "https://github.com/kwyip/bib_optimizer"
+Issues = "https://github.com/kwyip/bib_optimizer/issues"
