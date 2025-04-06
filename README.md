@@ -36,10 +36,7 @@
           pip install bibtexparser # Requires Python 3
         </code>
     </li>
-    <li><strong>Run the Script</strong>:
-        <code>
-          python bib_cleaner.py main.tex ref.bib ref_opt.bib
-        </code>
+    <li><strong>Run the Script</strong>:<code>python bib_cleaner.py main.tex ref.bib ref_opt.bib</code>
     </li>
     <li><strong>Use the Cleaned Bibliography</strong><br />
       Replace <code>ref.bib</code> with
