@@ -3,7 +3,7 @@ import re
 import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
 
-def bib_cleaner(filename, input_bib, output_bib):
+def bib_optimizer(filename, input_bib, output_bib):
     with open(filename, 'r', encoding='utf-8') as file:
         filecontent = file.read()
 
@@ -45,4 +45,4 @@ if __name__=='__main__':
     old_bib = sys.argv[1:][1]
     new_bib = sys.argv[1:][2]
 
-    bib_cleaner(tex, old_bib, new_bib)
+    bib_optimizer(tex, old_bib, new_bib)
