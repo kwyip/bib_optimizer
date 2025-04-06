@@ -33,22 +33,14 @@
   <ol>
     <li><strong>Install Dependencies</strong>
       <br />
-      <div class="box">
-        <!-- <pre> -->
         <code>
           pip install bibtexparser # Requires Python 3
         </code>
-      <!-- </pre> -->
-      </div>
     </li>
     <li><strong>Run the Script</strong><br />
-      <div class="box">
-        <!-- <pre> -->
         <code>
           python bib_cleaner.py main.tex ref.bib ref_opt.bib
         </code>
-      <!-- </pre> -->
-      </div>
     </li>
     <li><strong>Use the Cleaned Bibliography</strong><br />
       Replace <code>ref.bib</code> with
