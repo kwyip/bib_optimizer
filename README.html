@@ -31,13 +31,12 @@
 <footnote>
   <h3 id="steps-to-clean-your-bibliography">Steps to Clean Your Bibliography</h3>
   <ol>
-    <li><strong>Install Dependencies</strong>
-      <br />
+    <li><strong>Install Dependencies</strong>:
         <code>
           pip install bibtexparser # Requires Python 3
         </code>
     </li>
-    <li><strong>Run the Script</strong><br />
+    <li><strong>Run the Script</strong>:
         <code>
           python bib_cleaner.py main.tex ref.bib ref_opt.bib
         </code>
