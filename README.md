@@ -28,6 +28,7 @@
   </ul>
 </main>
 <hr>
+<h2> Installation </h2>
 <footnote>
   <h3 id="steps-to-clean-your-bibliography">Steps to Clean Your Bibliography</h3>
   <ol>
