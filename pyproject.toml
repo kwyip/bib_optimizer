@@ -1,3 +1,5 @@
+# pyproject.toml
+
 [project]
 name = "bib_optimizer"
 version = "0.0.1"
