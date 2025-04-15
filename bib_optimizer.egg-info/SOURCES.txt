@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-bib_cleaner/__init__.py
-bib_optimizer.egg-info/PKG-INFO
-bib_optimizer.egg-info/SOURCES.txt
-bib_optimizer.egg-info/dependency_links.txt
-bib_optimizer.egg-info/top_level.txt

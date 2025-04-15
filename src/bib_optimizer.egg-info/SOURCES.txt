@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/bib_optimizer/__init__.py
+src/bib_optimizer/__main__.py
+src/bib_optimizer/helpers.py
+src/bib_optimizer.egg-info/PKG-INFO
+src/bib_optimizer.egg-info/SOURCES.txt
+src/bib_optimizer.egg-info/dependency_links.txt
+src/bib_optimizer.egg-info/entry_points.txt
+src/bib_optimizer.egg-info/requires.txt
+src/bib_optimizer.egg-info/top_level.txt

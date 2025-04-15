@@ -1,20 +1,65 @@
 # pyproject.toml
 
+[build-system]
+requires = ["setuptools>=75.3.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "bib_optimizer"
 version = "0.0.1"
+description = "Clean and optimize bib file."
 authors = [
   { name="Ka Wa Yip", email="yipkawa@gmail.com" },
 ]
-description = "bib_cleaner"
+license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = ["bibtexparser>=1.4.3"]
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
     "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13"
 ]
+keywords = ["latex", "bib", "bibliography"]
 
 [project.urls]
 Homepage = "https://github.com/kwyip/bib_optimizer"
 Issues = "https://github.com/kwyip/bib_optimizer/issues"
+
+[project.optional-dependencies]
+build = ["build", "twine"]
+dev   = ["black", "bumpver", "isort", "mypy", "pytest"]
+
+[project.scripts]
+bibopt = "bib_optimizer.__main__:main"
+
+[tool.bumpver]
+current_version = "0.0.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"src/bib_optimizer/__init__.py" = ["{version}"]
+"src/bib_optimizer/__main__.py" = ["- bib_optimizer v{version}"]
+
+[tool.isort]
+profile                   = "black"
+import_heading_stdlib     = "Standard library imports"
+import_heading_thirdparty = "Third party imports"
+import_heading_firstparty = "Reader imports"
+
+
+
