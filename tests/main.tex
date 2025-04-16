@@ -1,0 +1,26 @@
+\documentclass[12pt,twocolumn,letterpaper]{article}
+\usepackage[pdfstartview=FitH]{hyperref}
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,          % color of internal links
+    citecolor=blue,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=blue,           % color of external links
+    runcolor= blue
+}
+
+\begin{document}
+\title{bib-optimizer testing}
+\author{cite}
+\date{\today}
+\maketitle
+\section{Introduction}
+In this study, we cite~\cite{firstref, secondref} and 
+
+\section{Conclusion}
+\label{sec:conclusion}
+From \cite{thirdref} we
+
+\bibliographystyle{plain}
+\bibliography{ref.bib}
+\end{document}
