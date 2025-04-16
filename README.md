@@ -24,9 +24,15 @@ These input files will **remain unchanged**.
 Installation
 ------------
 
-`pip install bib_optimizer`  
-or  
-`python -m pip install bib_optimizer`  
+It can be installed with `pip`, ideally by using a [virtual environment](https://realpython.com/what-is-pip/#using-pip-in-a-python-virtual-environment). Open up a terminal and install the package and the dependencies with:  
+  
+
+    `pip install bib_optimizer`
+
+_or_
+
+    `python -m pip install bib_optimizer`
+
   
 _🐍 This requires Python 3.8 or newer versions_
 
@@ -35,8 +41,13 @@ _🐍 This requires Python 3.8 or newer versions_
 ### Steps to Clean Your Bibliography
 
 1.  **Prepare the input files (e.g., by downloading them from Overleaf)**.
-2.  **Run the command to generate a new `.bib` file (for example, you may name it `ref_opt.bib`)**:   
-    `bibopt main.tex ref.bib ref_opt.bib`
+2.  **Run the command to generate a new `.bib` file (for example, you may name it `ref_opt.bib`)**:  
+      
+    
+           `bibopt main.tex ref.bib ref_opt.bib`
+    
+      
+    
 3.  **Use the Cleaned Bibliography**  
     Replace `ref.bib` with `ref_opt.bib` in your LaTeX project.
 

@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: bib_optimizer
-Version: 0.3.1
+Version: 0.3.2
 Summary: Clean and optimize bib file.
 Author-email: Ka Wa Yip <yipkawa@gmail.com>
 License: MIT License
@@ -95,5 +95,9 @@ _🐍 This requires Python 3.8 or newer versions_
     Replace `ref.bib` with `ref_opt.bib` in your LaTeX project.
 
 * * *
+
+### Test
+
+You may test the installation using the sample input files (`sample_main.tex` and `sample_ref.bib`) located in the test folder.
 
 ♥ Lastly executed on Python `3.10` and bibtexparser `1.4.3`
