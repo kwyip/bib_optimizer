@@ -1,9 +1,8 @@
-import sys
-import re
 import bibtexparser
+import re
 from bibtexparser.bwriter import BibTexWriter
 
-def bib_optimizer(filename, input_bib, output_bib):
+def bib_opt(filename, input_bib, output_bib):
     with open(filename, 'r', encoding='utf-8') as file:
         filecontent = file.read()
 
@@ -36,13 +35,3 @@ def bib_optimizer(filename, input_bib, output_bib):
 
     with open(output_bib, 'w', encoding='utf-8') as bibfile:
         bibfile.write(writer.write(new_bib_database))
-
-
-if __name__=='__main__':
-    if len(sys.argv[1:]) != 3:
-        raise Exception("Sorry, please input three files: your tex filename, bib filename, and the desired new bib filename")
-    tex = sys.argv[1:][0]
-    old_bib = sys.argv[1:][1]
-    new_bib = sys.argv[1:][2]
-
-    bib_optimizer(tex, old_bib, new_bib)

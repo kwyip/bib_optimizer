@@ -1,0 +1,12 @@
+bibtexparser>=1.4.3
+
+[build]
+build
+twine
+
+[dev]
+black
+bumpver
+isort
+mypy
+pytest

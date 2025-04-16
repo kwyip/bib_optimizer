@@ -33,14 +33,37 @@
   </main>
   <hr>
   <h2> Installation </h2>
-  <code>pip install bib_optimizer</code> or <code>python -m pip install bib_optimizer</code>
+  It can be installed with <code>pip</code>, ideally by using a <a
+    href="https://realpython.com/what-is-pip/#using-pip-in-a-python-virtual-environment">virtual environment</a>.
+  Open up a terminal and install the package and the dependencies with:
+  <br />
+  <br />
+  <div>
+    &nbsp&nbsp&nbsp&nbsp<code>pip install bib_optimizer</code>
+  </div>
+  <i>or</i>
+  <div>
+    &nbsp&nbsp&nbsp&nbsp<code>python -m pip install bib_optimizer</code>
+  </div>
+  <br />
+
+  <footnote>
+    <i><small>&#128013 This requires Python 3.8 or newer versions</small></i>
+  </footnote>
   <hr>
   <footnote>
     <h3 id="steps-to-clean-your-bibliography">Steps to Clean Your Bibliography</h3>
     <ol>
-      <li><strong>Install Dependencies</strong>:&nbsp<code>pip install bibtexparser # Requires Python 3</code>
+      <li><strong>Prepare the input files (e.g., by downloading them from Overleaf)</strong>.
       </li>
-      <li><strong>Run the Script</strong>:&nbsp<code>python bib_optimizer.py main.tex ref.bib ref_opt.bib</code>
+      <li><strong>Run the command to generate a new <code>.bib</code> file (for example, you may name it
+          <code>ref_opt.bib</code>)</strong>:
+        <br />
+        <br />
+        <div>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<code>bibopt main.tex ref.bib ref_opt.bib</code>
+        </div>
+        <br />
       </li>
       <li><strong>Use the Cleaned Bibliography</strong><br />
         Replace <code>ref.bib</code> with
@@ -49,6 +72,9 @@
       </li>
     </ol>
     <hr>
+    <h3 id="test">Test</h3>
+    You may test the installation using the sample input files (<code>sample_main.tex</code> and
+    <code>sample_ref.bib</code>) located in the test folder.
     <marquee>
       <summary>
         <p>&hearts; Lastly executed on Python <code>3.10</code> and bibtexparser <code>1.4.3</code></p>
