@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bib_optimizer"
-version = "0.3.2"
+version = "0.3.3"
 description = "Clean and optimize bib file."
 authors = [
   { name="Ka Wa Yip", email="yipkawa@gmail.com" },
@@ -40,7 +40,7 @@ dev   = ["black", "bumpver", "isort", "mypy", "pytest"]
 bibopt = "bib_optimizer.__main__:main"
 
 [tool.bumpver]
-current_version = "0.3.2"
+current_version = "0.3.3"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "bump version {old_version} -> {new_version}"
 commit          = true
