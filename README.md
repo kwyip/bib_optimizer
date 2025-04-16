@@ -42,4 +42,8 @@ _🐍 This requires Python 3.8 or newer versions_
 
 * * *
 
+### Test
+
+You may test the installation using the sample input files (`sample_main.tex` and `sample_ref.bib`) located in the test folder.
+
 ♥ Lastly executed on Python `3.10` and bibtexparser `1.4.3`
