@@ -69,21 +69,21 @@ _🐍 This requires Python 3.8 or newer versions_
 You may test the installation using the sample input files (`sample_main.tex` and `sample_ref.bib`) located in the test folder.
 
 <figure>
-  <img src="sample_main_shot.png" alt="sample_main_shot" height="199"/>
-  <img src="sample_ref_shot.png" alt="sample_ref_shot" height="199" />
+  <img src="sample_main_shot.png" alt="sample_main_shot" height="143"/>
+  <img src="sample_ref_shot.png" alt="sample_ref_shot" height="143" />
   <figcaption>
     <i><code>sample_main.tex</code> and <code>sample_ref.bib</code></i>
   </figcaption>
 </figure>
-------------
+
 
 <figure>
-  <img src="sample_ref_opt_shot.png" alt="sample_ref_opt_shot" height="199" />
+  <img src="sample_ref_opt_shot.png" alt="sample_ref_opt_shot" height="143" />
   <figcaption>
     <i>A sample <code>ref_opt.bib</code> after running 
       <code>bibopt sample_main.tex sample_ref.bib ref_opt.bib</code></i>
   </figcaption> 
 </figure>
-==========================================
+* * *
 
 ♥ Lastly executed on Python `3.10` on 2025-04-16.
