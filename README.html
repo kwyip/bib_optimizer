@@ -11,7 +11,7 @@
 <body>
   <header>
     <figure>
-      <img src="logo.png" alt="logo" height="199" />
+      <img src="logo.png" alt="logo" height="143" />
       <!-- <figcaption>An elephant at sunset</figcaption> -->
     </figure>
     <table>
@@ -24,23 +24,40 @@
       </thead> -->
       <tbody>
         <tr>
-          <th scope="row">Chris</th>
-          <td>HTML tables</td>
-          <td>22</td>
-          <td>45</td>
-          <td>45</td>
-        </tr>
-        <tr>
-          <th scope="row">Dennis</th>
-          <td>Web accessibility</td>
-          <td>45</td>
-          <td>45</td>
-          <td>45</td>
+          <th scope="row"></th>
+          <td>
+            <a href="https://github.com/kwyip/bib_optimizer/blob/main/LICENSE">
+              <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="" />
+            </a>
+          </td>
+          <td>
+            <a href="https://pypi.org/project/bib-optimizer/">
+              <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/bib-optimizer" />
+            </a>
+          </td>
+          <td>
+            <a href="https://pypi.org/project/bib-optimizer">
+              <img alt="Static Badge" src="https://img.shields.io/badge/CalVer-2025.0416-ff5733" />
+            </a>
+          </td>
+          <td><a href="https://pypi.org/project/bib-optimizer/#files">
+            <img alt="Static Badge" src="https://img.shields.io/badge/PyPI-wheels-d8d805">
+            </a>
+          </td>
+          <td>
+            <a href="https://pepy.tech/project/bib_optimizer">
+              <img src="https://pepy.tech/badge/bib_optimizer/month" alt="" />
+            </a>
+          </td>
         </tr>
       </tbody>
     </table>
-    
-    <h1 id="bib-optimizer">bib-optimizer</h1>
+
+    <h1 id="bib-optimizer">
+      <a href="https://bibopt.github.io/">
+        bib-optimizer
+      </a>
+    </h1>
   </header>
   <header>
     <p>Oh, sure, because who doesn&#39;t love manually cleaning up messy <code>.bib</code> files?
@@ -65,7 +82,7 @@
     <p>These input files will <strong>remain unchanged</strong>.</p>
     <p><strong>Output File:</strong></p>
     <ul>
-      <li><code>ref_opt.bib</code> – The newly generated, cleaned and ordered bibliography file.</li>
+      <li><code>ref_opt.bib</code> – A placeholder filename for the newly generated, cleaned, and ordered bibliography file.</li>
     </ul>
   </main>
   <hr>
@@ -112,9 +129,31 @@
     <h3 id="test">Test</h3>
     You may test the installation using the sample input files (<code>sample_main.tex</code> and
     <code>sample_ref.bib</code>) located in the test folder.
+
+    <figure>
+      <img src="sample_main_shot.png" alt="sample_main_shot" height="199"/>
+      &nbsp
+      <img src="sample_ref_shot.png" alt="sample_ref_shot" height="199" />
+      <figcaption>
+        <i><code>sample_main.tex</code> and <code>sample_ref.bib</code></i>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <img src="sample_ref_opt_shot.png" alt="sample_ref_opt_shot" height="199" />
+      <figcaption>
+        <i>A sample <code>ref_opt.bib</code> after running 
+          <code>bibopt sample_main.tex sample_ref.bib ref_opt.bib</code></i>
+      </figcaption> 
+    </figure>
+
+
     <marquee>
       <summary>
-        <p>&hearts; Lastly executed on Python <code>3.10</code> and bibtexparser <code>1.4.3</code></p>
+        <p>
+          &hearts; Lastly executed on Python <code>3.10</code>
+          on 2025-04-16.
+        </p>
       </summary>
     </marquee>
   </footnote>
