@@ -74,7 +74,7 @@ You may test the installation using the sample input files (`sample_main.tex` an
 
 <figure>
   <img src="sample_main_shot.png" alt="sample_main_shot" height="199"/>
-  &nbsp;
+  &nbsp;&nbsp;&nbsp;
   <img src="sample_ref_shot.png" alt="sample_ref_shot" height="199" />
   <figcaption>
     <i><code>sample_main.tex</code> and <code>sample_ref.bib</code></i>
