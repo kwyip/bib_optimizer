@@ -1,6 +1,7 @@
-  LaTex Bibliography Optimizer 
-
-![logo](logo.png) 
+  <figure>
+    <img src="logo.png" alt="logo" height="143" />
+    <!-- <figcaption>An elephant at sunset</figcaption> -->
+  </figure>
 
 [![](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kwyip/bib_optimizer/blob/main/LICENSE)
 
@@ -71,12 +72,21 @@ _🐍 This requires Python 3.8 or newer versions_
 
 You may test the installation using the sample input files (`sample_main.tex` and `sample_ref.bib`) located in the test folder.
 
-![sample_main_shot](sample_main_shot.png)   ![sample_ref_shot](sample_ref_shot.png)
+<figure>
+  <img src="sample_main_shot.png" alt="sample_main_shot" height="199"/>
+  &nbsp
+  <img src="sample_ref_shot.png" alt="sample_ref_shot" height="199" />
+  <figcaption>
+    <i><code>sample_main.tex</code> and <code>sample_ref.bib</code></i>
+  </figcaption>
+</figure>
 
-_`sample_main.tex` and `sample_ref.bib`_
-
-![sample_ref_opt_shot](sample_ref_opt_shot.png)
-
-_A sample `ref_opt.bib` after running `bibopt sample_main.tex sample_ref.bib ref_opt.bib`_
+<figure>
+  <img src="sample_ref_opt_shot.png" alt="sample_ref_opt_shot" height="199" />
+  <figcaption>
+    <i>A sample <code>ref_opt.bib</code> after running 
+      <code>bibopt sample_main.tex sample_ref.bib ref_opt.bib</code></i>
+  </figcaption> 
+</figure>
 
 ♥ Lastly executed on Python `3.10` on 2025-04-16.
