@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: bib_optimizer
-Version: 0.3.5
+Version: 0.3.6
 Summary: Clean and optimize bib file.
 Author-email: Ka Wa Yip <yipkawa@gmail.com>
 License: MIT License
@@ -53,7 +53,7 @@ Requires-Dist: pytest; extra == "dev"
 Dynamic: license-file
 
   <figure>
-    <img src="logo.png" alt="logo" height="143" />
+    <img src="https://github.com/kwyip/bib_optimizer/blob/main/logo.png?raw=True" alt="logo" height="143" />
     <!-- <figcaption>An elephant at sunset</figcaption> -->
   </figure>
 
@@ -122,21 +122,14 @@ _🐍 This requires Python 3.8 or newer versions_
 
 You may test the installation using the sample input files (`sample_main.tex` and `sample_ref.bib`) located in the test folder.
 
-<figure>
-  <img src="sample_main_shot.png" alt="sample_main_shot" height="199"/>
-  &nbsp;
-  <img src="sample_ref_shot.png" alt="sample_ref_shot" height="199" />
-  <figcaption>
-    <i><code>sample_main.tex</code> and <code>sample_ref.bib</code></i>
-  </figcaption>
-</figure>
+<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_main_shot.png?raw=True" alt="sample_main_shot" height="200"/>&nbsp;&nbsp;<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_ref_shot.png?raw=True" alt="sample_ref_shot" height="200" />
 
-<figure>
-  <img src="sample_ref_opt_shot.png" alt="sample_ref_opt_shot" height="199" />
-  <figcaption>
-    <i>A sample <code>ref_opt.bib</code> after running 
-      <code>bibopt sample_main.tex sample_ref.bib ref_opt.bib</code></i>
-  </figcaption> 
-</figure>
+_`sample_main.tex` and `sample_ref.bib`_
+
+<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_ref_opt_shot.png?raw=True" alt="sample_ref_opt_shot" height="200" />
+
+_A sample `ref_opt.bib` after running `bibopt sample_main.tex sample_ref.bib ref_opt.bib`_
+
+---
 
 ♥ Lastly executed on Python `3.10` on 2025-04-16.
