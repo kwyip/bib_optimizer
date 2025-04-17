@@ -84,7 +84,6 @@ You may test the installation using the sample input files (`sample_main.tex` an
       <code>bibopt sample_main.tex sample_ref.bib ref_opt.bib</code></i>
   </figcaption> 
 </figure>
-
 ==========================================
 
 ♥ Lastly executed on Python `3.10` on 2025-04-16.
