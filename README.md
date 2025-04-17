@@ -4,13 +4,9 @@
   </figure>
 
 [![](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kwyip/bib_optimizer/blob/main/LICENSE)
-
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bib-optimizer)](https://pypi.org/project/bib-optimizer/)
-
 [![Static Badge](https://img.shields.io/badge/CalVer-2025.0416-ff5733)](https://pypi.org/project/bib-optimizer)
-
 [![Static Badge](https://img.shields.io/badge/PyPI-wheels-d8d805)](https://pypi.org/project/bib-optimizer/#files)
-
 [![](https://pepy.tech/badge/bib_optimizer/month)](https://pepy.tech/project/bib_optimizer)
 
 [bib-optimizer](https://bibopt.github.io/)
@@ -74,7 +70,7 @@ You may test the installation using the sample input files (`sample_main.tex` an
 
 <figure>
   <img src="sample_main_shot.png" alt="sample_main_shot" height="199"/>
-  &nbsp;&nbsp;&nbsp;
+  &nbsp;
   <img src="sample_ref_shot.png" alt="sample_ref_shot" height="199" />
   <figcaption>
     <i><code>sample_main.tex</code> and <code>sample_ref.bib</code></i>
