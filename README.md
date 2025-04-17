@@ -1,5 +1,5 @@
   <figure>
-    <img src="logo.png" alt="logo" height="143" />
+    <img src="https://github.com/kwyip/bib_optimizer/blob/main/logo.png?raw=True" alt="logo" height="143" />
     <!-- <figcaption>An elephant at sunset</figcaption> -->
   </figure>
 
@@ -68,11 +68,11 @@ _🐍 This requires Python 3.8 or newer versions_
 
 You may test the installation using the sample input files (`sample_main.tex` and `sample_ref.bib`) located in the test folder.
 
-<img src="sample_main_shot.png" alt="sample_main_shot" height="200"/>&nbsp;&nbsp;<img src="sample_ref_shot.png" alt="sample_ref_shot" height="200" />
+<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_main_shot.png?raw=True" alt="sample_main_shot" height="200"/>&nbsp;&nbsp;<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_ref_shot.png?raw=True" alt="sample_ref_shot" height="200" />
 
 _`sample_main.tex` and `sample_ref.bib`_
 
-<img src="sample_ref_opt_shot.png" alt="sample_ref_opt_shot" height="200" />
+<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_ref_opt_shot.png?raw=True" alt="sample_ref_opt_shot" height="200" />
 
 _A sample `ref_opt.bib` after running `bibopt sample_main.tex sample_ref.bib ref_opt.bib`_
 
