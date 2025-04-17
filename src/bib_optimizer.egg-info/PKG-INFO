@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: bib_optimizer
-Version: 0.3.4
+Version: 0.3.5
 Summary: Clean and optimize bib file.
 Author-email: Ka Wa Yip <yipkawa@gmail.com>
 License: MIT License
@@ -52,8 +52,19 @@ Requires-Dist: mypy; extra == "dev"
 Requires-Dist: pytest; extra == "dev"
 Dynamic: license-file
 
-bib-optimizer
-=============
+  <figure>
+    <img src="logo.png" alt="logo" height="143" />
+    <!-- <figcaption>An elephant at sunset</figcaption> -->
+  </figure>
+
+[![](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kwyip/bib_optimizer/blob/main/LICENSE)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bib-optimizer)](https://pypi.org/project/bib-optimizer/)
+[![Static Badge](https://img.shields.io/badge/CalVer-2025.0416-ff5733)](https://pypi.org/project/bib-optimizer)
+[![Static Badge](https://img.shields.io/badge/PyPI-wheels-d8d805)](https://pypi.org/project/bib-optimizer/#files)
+[![](https://pepy.tech/badge/bib_optimizer/month)](https://pepy.tech/project/bib_optimizer)
+
+[bib-optimizer](https://bibopt.github.io/)
+==========================================
 
 Oh, sure, because who doesn't love manually cleaning up messy `.bib` files? `bib_optimizer.py` heroically steps in to remove those lazy, _unused_ citations and _reorder_ the survivors exactly as they appear in the `.tex` file—because, clearly, chaos is the default setting for bibliographies.
 
@@ -71,7 +82,7 @@ These input files will **remain unchanged**.
 
 **Output File:**
 
-*   `ref_opt.bib` – The newly generated, cleaned and ordered bibliography file.
+*   `ref_opt.bib` – A placeholder filename for the newly generated, cleaned, and ordered bibliography file.
 
 * * *
 
@@ -111,4 +122,21 @@ _🐍 This requires Python 3.8 or newer versions_
 
 You may test the installation using the sample input files (`sample_main.tex` and `sample_ref.bib`) located in the test folder.
 
-♥ Lastly executed on Python `3.10` and bibtexparser `1.4.3`
+<figure>
+  <img src="sample_main_shot.png" alt="sample_main_shot" height="199"/>
+  &nbsp;
+  <img src="sample_ref_shot.png" alt="sample_ref_shot" height="199" />
+  <figcaption>
+    <i><code>sample_main.tex</code> and <code>sample_ref.bib</code></i>
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="sample_ref_opt_shot.png" alt="sample_ref_opt_shot" height="199" />
+  <figcaption>
+    <i>A sample <code>ref_opt.bib</code> after running 
+      <code>bibopt sample_main.tex sample_ref.bib ref_opt.bib</code></i>
+  </figcaption> 
+</figure>
+
+♥ Lastly executed on Python `3.10` on 2025-04-16.
