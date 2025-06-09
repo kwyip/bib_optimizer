@@ -5,6 +5,7 @@ pyproject.toml
 src/bib_optimizer/__init__.py
 src/bib_optimizer/__main__.py
 src/bib_optimizer/helpers.py
+src/bib_optimizer/helpers_old.py
 src/bib_optimizer.egg-info/PKG-INFO
 src/bib_optimizer.egg-info/SOURCES.txt
 src/bib_optimizer.egg-info/dependency_links.txt

@@ -77,5 +77,11 @@ _`sample_main.tex` and `sample_ref.bib`_
 _A sample `ref_opt.bib` after running `bibopt sample_main.tex sample_ref.bib ref_opt.bib`_
 
 ---
+#### New feature (version 0.4)
+
+If the `main.tex` calls inputs from other `.tex` (e.g., with `\input{...}`), the newly generated `ref_opt.bib` will preserve the order of appearances in the `main.tex` with each inputted `.tex` as well. \
+(The dependent `.tex` files need to be placed in the same directory as `main.tex`.)
+
+---
 
 ♥ Lastly executed on Python `3.10` on 2025-04-16.
