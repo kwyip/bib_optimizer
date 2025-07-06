@@ -68,11 +68,11 @@ _🐍 This requires Python 3.8 or newer versions_
 
 You may test the installation using the sample input files (`sample_main.tex` and `sample_ref.bib`) located in the test folder.
 
-<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_main_shot.png?raw=True" alt="sample_main_shot" height="143"/>&nbsp;&nbsp;<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_ref_shot.png?raw=True" alt="sample_ref_shot" height="143" />
+<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_main_shot.png?raw=True" alt="sample_main_shot"  width="34.83%"/>&nbsp;&nbsp;<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_ref_shot.png?raw=True" alt="sample_ref_shot" width="43%" />
 
 `sample_main.tex` _and_ `sample_ref.bib`
 
-<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_ref_opt_shot.png?raw=True" alt="sample_ref_opt_shot" height="143" />
+<img src="https://github.com/kwyip/bib_optimizer/blob/main/sample_ref_opt_shot.png?raw=True" alt="sample_ref_opt_shot" width="43%" />
 
 _A sample_ `ref_opt.bib` _created after running_ `bibopt sample_main.tex sample_ref.bib ref_opt.bib`
 
