@@ -42,13 +42,17 @@ def bib_opt(filename, input_bib, output_bib):
             if ".tex" not in input_file_extended:
                 input_file_extended += ".tex"
             
-            with open(input_file_extended, 'r', encoding='utf-8') as file:
-                _lines = file.readlines()
+            try:
+                with open(input_file_extended, 'r', encoding='utf-8') as file:
+                    _lines = file.readlines()
 
-            _filtered_lines = [line for line in _lines if not line.lstrip().startswith('%')]
-            _filecontent = ''.join(_filtered_lines)     
+                _filtered_lines = [line for line in _lines if not line.lstrip().startswith('%')]
+                _filecontent = ''.join(_filtered_lines)     
 
-            all_keys, temp_citations = _augment_func(_filecontent, all_keys, temp_citations)
+                all_keys, temp_citations = _augment_func(_filecontent, all_keys, temp_citations)
+            except Exception as e:
+                print(f'{e}, skipped.')
+
             all_keys, temp_citations = _augment_func(split_result[1], all_keys, temp_citations)
 
     for k in all_keys:
@@ -66,3 +70,5 @@ def bib_opt(filename, input_bib, output_bib):
 
     with open(output_bib, 'w', encoding='utf-8') as bibfile:
         bibfile.write(writer.write(new_bib_database))
+
+    print(f'successfully created {output_bib}')

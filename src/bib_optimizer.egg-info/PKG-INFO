@@ -138,4 +138,4 @@ If the `main.tex` calls inputs from other `.tex` (e.g., with `\input{...}`), the
 
 ---
 
-♥ Lastly executed on Python `3.10` on 2025-04-16.
+♥ Lastly executed on Python `3.10` on 2025-06-09.
