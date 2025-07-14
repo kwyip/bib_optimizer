@@ -25,11 +25,11 @@ def bib_opt(filename, input_bib, output_bib):
     all_keys = []
     temp_citations = set()
     
-    split_pattern = r'(.*?)(\\input[^\n]*\n)(.*?)((?=\\input)|\Z)'
+    split_pattern = r'(.*?)(\\(?:input|include)[^\n]*\n)(.*?)((?=\\(?:input|include))|\Z)'
     matches = re.findall(split_pattern, filecontent, flags=re.DOTALL)
     split_results = [(before, after.strip()) for before, input_line, after, _ in matches]
     
-    input_pattern_extended = r'\\input\s*(?:{([^}]+)}|([^\s\n]+))'
+    input_pattern_extended = r'\\(?:input|include)\s*(?:{([^}]+)}|([^\s\n]+))'
     matches = re.findall(input_pattern_extended, filecontent)
     input_files_extended = [m[0] if m[0] else m[1] for m in matches]    
 

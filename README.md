@@ -88,5 +88,8 @@ If the `main.tex` calls inputs from other `.tex` (e.g., with `\input{...}`), the
 On top of version 0.4, skip any `\input` `.tex` file if not found.
 
 ---
+#### New feature (version 0.4.2)
 
-♥ Lastly executed on Python `3.10` on 2025-07-06.
+In addition to handling the `\input{...}` command, it also supports the `\include{...}` command.
+
+♥ Lastly executed on Python `3.10` on 2025-07-14.
