@@ -1,7 +1,7 @@
 """Version:
 --------
 
-- bib_optimizer v0.4.1
+- bib_optimizer v0.4.2
 """
 import sys
 from bib_optimizer import helpers
