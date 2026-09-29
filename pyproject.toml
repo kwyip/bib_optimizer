@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bib_optimizer"
-version = "0.4.2"
+version = "0.4.3"
 description = "Clean and optimize bib file."
 authors = [
   { name="Ka Wa Yip", email="yipkawa@gmail.com" },
@@ -14,7 +14,7 @@ authors = [
 license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = ["bibtexparser>=1.4.3"]
+dependencies = ["bibtexparser>=1.4.3,<2"]
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
@@ -24,7 +24,8 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13"
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14"
 ]
 keywords = ["latex", "bib", "bibliography"]
 
@@ -40,7 +41,7 @@ dev   = ["black", "bumpver", "isort", "mypy", "pytest"]
 bibopt = "bib_optimizer.__main__:main"
 
 [tool.bumpver]
-current_version = "0.4.2"
+current_version = "0.4.3"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "bump version {old_version} -> {new_version}"
 commit          = true
@@ -60,6 +61,4 @@ profile                   = "black"
 import_heading_stdlib     = "Standard library imports"
 import_heading_thirdparty = "Third party imports"
 import_heading_firstparty = "Reader imports"
-
-
 

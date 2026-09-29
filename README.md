@@ -35,16 +35,58 @@ These input files will **remain unchanged**.
 Installation
 ------------
 
-It can be installed with `pip`, ideally by using a [virtual environment](https://realpython.com/what-is-pip/#using-pip-in-a-python-virtual-environment). Open up a terminal and install the package and the dependencies with:  
-  
+### Install from PyPI with pip
 
-    `pip install bib_optimizer`
+Create and activate a virtual environment, then install the latest release from PyPI:
 
-_or_
+```bash
+python -m venv .venv
 
-    `python -m pip install bib_optimizer`
+# Linux/macOS
+source .venv/bin/activate
 
-  
+# Windows
+.venv\Scripts\activate
+
+python -m pip install --upgrade bib_optimizer
+```
+
+Alternatively, install the command in an isolated environment with [uv](https://docs.astral.sh/uv/):
+
+```bash
+uv tool install bib_optimizer
+```
+
+After either installation method, the `bibopt` command is available in your terminal.
+
+### Install from source for development
+
+This repository uses uv for project and dependency management.
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/kwyip/bib_optimizer.git
+   cd bib_optimizer
+   ```
+
+2. **Install environment**
+
+   ```bash
+   # This creates the virtual environment and installs all dependencies
+   uv sync
+   ```
+
+3. **Activate environment**
+
+   ```bash
+   # Linux/MacOS
+   source .venv/bin/activate
+
+   # Windows
+   .venv\Scripts\activate
+   ```
+
 _🐍 This requires Python 3.8 or newer versions_
 
 * * *
@@ -88,8 +130,13 @@ If the `main.tex` calls inputs from other `.tex` (e.g., with `\input{...}`), the
 On top of version 0.4, skip any `\input` `.tex` file if not found.
 
 ---
-#### New feature (version 0.4.2)
+#### New feature/Fix (version 0.4.2)
 
-In addition to handling the `\input{...}` command, it also supports the `\include{...}` command.
+Added support for the `\include{...}` command in addition to `\input{...}`, fixing missing citations when a LaTeX project uses `\include` to split its content across files.
 
-♥ Lastly executed on Python `3.10` on 2025-07-14.
+---
+#### New feature/Fix (version 0.4.3)
+
+Added Python 3.14 support and constrained `bibtexparser` to the compatible 1.x release series, fixing `ModuleNotFoundError: No module named 'bibtexparser.bwriter'` during fresh installations.
+
+♥ Lastly executed on Python `3.14` on 2026-09-29.
