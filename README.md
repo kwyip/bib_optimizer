@@ -137,6 +137,10 @@ _A sample_ `ref_opt.bib` _created after running_ `bibopt sample_main.tex sample_
 > Return only the optimized `.bib` file.
 > ```
 
+
+https://github.com/user-attachments/assets/2b4e3224-2aee-44c1-974c-812dead72e2f
+
+
 * * *
 
 #### New feature (version 0.4.0)
