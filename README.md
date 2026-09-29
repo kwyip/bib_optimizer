@@ -4,7 +4,7 @@
   </figure>
 
 [![](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kwyip/bib_optimizer/blob/main/LICENSE)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bib-optimizer)](https://pypi.org/project/bib-optimizer/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bib_optimizer)](https://pypi.org/project/bib-optimizer/)
 [![Static Badge](https://img.shields.io/badge/CalVer-2025.0416-ff5733)](https://pypi.org/project/bib-optimizer)
 [![Static Badge](https://img.shields.io/badge/PyPI-wheels-d8d805)](https://pypi.org/project/bib-optimizer/#files)
 [![](https://pepy.tech/badge/bib_optimizer/month)](https://pepy.tech/project/bib_optimizer)
