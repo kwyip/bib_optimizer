@@ -173,7 +173,27 @@ You may test the installation using the sample input files (`sample_main.tex` an
 
 _A sample_ `ref_opt.bib` _created after running_ `bibopt sample_main.tex sample_ref.bib ref_opt.bib`
 
----
+* * *
+
+## Code-free use with an AI agent
+
+[**Download `SKILL.md`**](./SKILL.md), then upload these files to your AI agent:
+
+- `SKILL.md`,
+- the root `.tex` file,
+- the source `.bib` file, and if any:
+- every `.tex` file referenced through `\input` or `\include`.
+
+> [!TIP]
+> Use this prompt:
+>
+> ```text
+> Use the attached `SKILL.md` to optimize the attached LaTeX and BibTeX files.
+> Return only the optimized `.bib` file.
+> ```
+
+* * *
+
 #### New feature (version 0.4.0)
 
 If the `main.tex` calls inputs from other `.tex` (e.g., with `\input{...}`), the newly generated `ref_opt.bib` will preserve the order of appearances in the `main.tex` with each inputted `.tex` as well. \
