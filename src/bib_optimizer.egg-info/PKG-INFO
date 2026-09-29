@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: bib_optimizer
-Version: 0.5.0
+Version: 0.5.1
 Summary: Clean and optimize bib file.
 Author-email: Ka Wa Yip <yipkawa@gmail.com>
 License: MIT License
@@ -191,6 +191,10 @@ _A sample_ `ref_opt.bib` _created after running_ `bibopt sample_main.tex sample_
 > Use the attached `SKILL.md` to optimize the attached LaTeX and BibTeX files.
 > Return only the optimized `.bib` file.
 > ```
+
+
+https://github.com/user-attachments/assets/2b4e3224-2aee-44c1-974c-812dead72e2f
+
 
 * * *
 
