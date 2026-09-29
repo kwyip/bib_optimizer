@@ -1,7 +1,7 @@
 """Version:
 --------
 
-- bib_optimizer v0.4.2
+- bib_optimizer v0.4.3
 """
 import sys
 from bib_optimizer import helpers
@@ -19,6 +19,5 @@ def main():
 
 if __name__ == '__main__':
 	main()
-
 
 
