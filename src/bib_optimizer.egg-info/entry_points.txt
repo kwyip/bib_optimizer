@@ -1,0 +1,2 @@
+[console_scripts]
+bibopt = bib_optimizer.__main__:main
