@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: bib_optimizer
-Version: 0.4.4
+Version: 0.5.0
 Summary: Clean and optimize bib file.
 Author-email: Ka Wa Yip <yipkawa@gmail.com>
 License: MIT License
@@ -213,5 +213,10 @@ Added support for the `\include{...}` command in addition to `\input{...}`, fixi
 #### New feature/Fix (version 0.4.3)
 
 Added Python 3.14 support and constrained `bibtexparser` to the compatible 1.x release series, fixing `ModuleNotFoundError: No module named 'bibtexparser.bwriter'` during fresh installations.
+
+---
+#### New feature/Fix (version 0.5.0)
+
+Add code-free SKILL.md
 
 ♥ Lastly executed on Python `3.14` on 2026-09-29.

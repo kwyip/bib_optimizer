@@ -159,4 +159,9 @@ Added support for the `\include{...}` command in addition to `\input{...}`, fixi
 
 Added Python 3.14 support and constrained `bibtexparser` to the compatible 1.x release series, fixing `ModuleNotFoundError: No module named 'bibtexparser.bwriter'` during fresh installations.
 
+---
+#### New feature/Fix (version 0.5.0)
+
+Add code-free SKILL.md
+
 ♥ Lastly executed on Python `3.14` on 2026-09-29.
